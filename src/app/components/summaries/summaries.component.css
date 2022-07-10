@@ -1,0 +1,13 @@
+.summaries {
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    /* border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px; */
+    text-align: center;
+}

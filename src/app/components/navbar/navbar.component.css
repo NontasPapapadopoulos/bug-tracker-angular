@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#1C2833;
+    height: 10vh;
+    color: #fff;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left:15vw;
+}
+
+
+a{
+    color: green;
+}
+
+.buttons {
+    margin-right: 15vw;
+    
+}
+
+
+

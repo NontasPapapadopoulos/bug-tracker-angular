@@ -1,0 +1,13 @@
+<div class="bug-list">
+  <h2>Bug List</h2>
+  <div class="buttons">
+    <app-button color="purple" text="User Bugs"></app-button>
+    <app-button color="blue" text="Project Bugs"></app-button>
+  </div>
+
+  <app-bug
+    *ngFor="let bug of bugs"
+    [bug]="bug"
+    routerLink="/bug-details"
+  ></app-bug>
+</div>

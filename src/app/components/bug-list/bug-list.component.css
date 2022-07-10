@@ -1,0 +1,30 @@
+.bug-list {
+    /* margin-top: 10vh; */
+    margin-right: 15vw;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    /* min-height: 40vh; */
+    width: 30vw;
+    padding-bottom: 10px;
+    
+}
+
+.buttons  {
+
+margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+
+    margin: 20px;
+}
+
+app-button {
+    margin:10px;
+}
+
+

@@ -1,0 +1,19 @@
+a {
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3px; 
+    background-color: aqua;
+    color: #333;
+    border: none;
+    width: 80%;
+    margin:auto;
+    margin-bottom: 10px;
+
+
+}
+
+a:hover {
+    background-color: red;
+    cursor: pointer;
+}

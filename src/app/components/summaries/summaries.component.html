@@ -1,0 +1,31 @@
+<div class="summaries">
+  <div class="total-bugs">
+    <p>Number of bugs:</p>
+
+    <app-circle-progress-bar
+      [number]="totalBugs"
+      color="aqua"
+    ></app-circle-progress-bar>
+  </div>
+  <div class="pending-bugs">
+    <p>Pending:</p>
+    <app-circle-progress-bar
+      [number]="unresolved"
+      color="red"
+    ></app-circle-progress-bar>
+  </div>
+  <div class="under-testing">
+    <p>Under testing:</p>
+    <app-circle-progress-bar
+      [number]="underTesting"
+      color="yellow"
+    ></app-circle-progress-bar>
+  </div>
+  <div class="resolved-bugs">
+    <p>Resolved:</p>
+    <app-circle-progress-bar
+      [number]="resolved"
+      color="green"
+    ></app-circle-progress-bar>
+  </div>
+</div>

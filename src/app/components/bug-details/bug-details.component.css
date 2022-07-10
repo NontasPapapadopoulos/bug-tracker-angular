@@ -1,0 +1,48 @@
+.details, .change-status {
+ 
+
+    color: #fff;
+    border: 2px #fff solid;
+    max-width: 50vw;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10vw;
+    padding: 30px;
+    background-color: #3D3B3D;
+}
+
+.change-status {
+    margin-bottom: 10vw;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+} 
+
+button, select {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+app-comment-list {
+    text-align: center;
+}
+
